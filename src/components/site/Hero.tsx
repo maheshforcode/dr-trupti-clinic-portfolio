@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Calendar, Phone, Award, HeartPulse, ShieldCheck } from "lucide-react";
-import doctorImg from "@/assets/doctor.jpg";
+import doctorImg from "@/assets/doctor-profile.jpeg";
 
 const badges = [
   { icon: Award, label: "Experienced Specialist" },

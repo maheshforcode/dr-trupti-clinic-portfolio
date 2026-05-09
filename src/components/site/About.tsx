@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { GraduationCap, Stethoscope, Heart, Award } from "lucide-react";
-import doctorImg from "@/assets/doctor.jpg";
+import doctorImg from "@/assets/doctor-profile.jpeg";
 
 const highlights = [
   { icon: GraduationCap, label: "MBBS, MS — Obstetrics & Gynecology" },
