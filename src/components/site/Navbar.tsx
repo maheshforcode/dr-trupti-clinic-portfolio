@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Menu, X, Flower2 } from "lucide-react";
+import { Menu, X, Stethoscope } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const links = [
@@ -30,11 +30,11 @@ export function Navbar() {
       <nav className="max-w-7xl mx-auto px-6 lg:px-10 h-18 py-4 flex items-center justify-between">
         <a href="#home" className="flex items-center gap-2.5 group">
           <span className="grid place-items-center w-10 h-10 rounded-2xl bg-gradient-cta text-primary-foreground shadow-soft group-hover:scale-105 transition-transform">
-            <Flower2 className="w-5 h-5" />
+            <Stethoscope className="w-5 h-5" />
           </span>
           <span className="flex flex-col leading-tight">
             <span className="font-display font-semibold text-foreground text-[15px]">Dr. Trupti Galange</span>
-            <span className="text-[11px] tracking-wide text-muted-foreground uppercase">Women's Clinic</span>
+            <span className="text-[11px] tracking-wide text-muted-foreground uppercase">Clinic · Dehugaon</span>
           </span>
         </a>
 

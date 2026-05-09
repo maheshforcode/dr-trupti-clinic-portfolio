@@ -44,42 +44,42 @@
 :root {
   --radius: 1rem;
 
-  /* Soft feminine palette */
-  --background: oklch(0.992 0.005 30);          /* warm off-white */
-  --foreground: oklch(0.25 0.03 340);           /* deep plum */
+  /* Modern healthcare palette: white, soft blue, teal, light beige */
+  --background: oklch(0.995 0.003 220);         /* clean white */
+  --foreground: oklch(0.22 0.04 230);           /* deep navy ink */
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.25 0.03 340);
+  --card-foreground: oklch(0.22 0.04 230);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.25 0.03 340);
+  --popover-foreground: oklch(0.22 0.04 230);
 
-  --primary: oklch(0.62 0.13 350);              /* rose pink */
-  --primary-foreground: oklch(0.99 0.005 340);
-  --secondary: oklch(0.95 0.025 340);           /* soft blush */
-  --secondary-foreground: oklch(0.35 0.05 340);
+  --primary: oklch(0.58 0.11 210);              /* trusted blue */
+  --primary-foreground: oklch(0.99 0.003 220);
+  --secondary: oklch(0.95 0.025 210);           /* soft blue tint */
+  --secondary-foreground: oklch(0.32 0.07 220);
 
-  --muted: oklch(0.96 0.012 60);                /* warm beige */
-  --muted-foreground: oklch(0.5 0.025 340);
-  --accent: oklch(0.92 0.04 300);               /* soft lavender */
-  --accent-foreground: oklch(0.3 0.08 320);
-  --destructive: oklch(0.62 0.22 27);
+  --muted: oklch(0.96 0.012 85);                /* light beige */
+  --muted-foreground: oklch(0.48 0.025 230);
+  --accent: oklch(0.92 0.05 190);               /* soft teal */
+  --accent-foreground: oklch(0.3 0.08 200);
+  --destructive: oklch(0.6 0.2 27);
   --destructive-foreground: oklch(0.99 0 0);
-  --border: oklch(0.92 0.015 340);
-  --input: oklch(0.94 0.012 340);
-  --ring: oklch(0.7 0.12 350);
+  --border: oklch(0.92 0.012 220);
+  --input: oklch(0.94 0.01 220);
+  --ring: oklch(0.65 0.1 200);
 
-  --blush: oklch(0.93 0.045 15);
-  --lavender: oklch(0.9 0.06 300);
-  --beige: oklch(0.95 0.025 75);
-  --rose: oklch(0.65 0.18 5);
+  --blush: oklch(0.94 0.035 210);               /* soft sky */
+  --lavender: oklch(0.93 0.05 190);             /* soft teal */
+  --beige: oklch(0.96 0.022 85);
+  --rose: oklch(0.62 0.13 200);                 /* teal accent */
 
-  --gradient-hero: linear-gradient(135deg, oklch(0.97 0.03 15) 0%, oklch(0.95 0.04 320) 50%, oklch(0.96 0.025 75) 100%);
-  --gradient-soft: linear-gradient(135deg, oklch(0.97 0.025 15) 0%, oklch(0.96 0.03 300) 100%);
-  --gradient-cta: linear-gradient(120deg, oklch(0.7 0.13 350) 0%, oklch(0.65 0.12 320) 100%);
-  --gradient-text: linear-gradient(120deg, oklch(0.55 0.18 350), oklch(0.5 0.15 320));
+  --gradient-hero: linear-gradient(135deg, oklch(0.98 0.012 220) 0%, oklch(0.95 0.04 200) 55%, oklch(0.97 0.022 85) 100%);
+  --gradient-soft: linear-gradient(135deg, oklch(0.98 0.012 220) 0%, oklch(0.96 0.035 195) 100%);
+  --gradient-cta: linear-gradient(120deg, oklch(0.6 0.12 215) 0%, oklch(0.62 0.11 195) 100%);
+  --gradient-text: linear-gradient(120deg, oklch(0.5 0.13 220), oklch(0.55 0.12 195));
 
-  --shadow-soft: 0 10px 40px -15px oklch(0.6 0.15 350 / 0.18);
-  --shadow-elegant: 0 20px 60px -25px oklch(0.55 0.15 340 / 0.25);
-  --shadow-card: 0 4px 20px -8px oklch(0.5 0.12 340 / 0.12);
+  --shadow-soft: 0 10px 40px -15px oklch(0.5 0.12 215 / 0.18);
+  --shadow-elegant: 0 20px 60px -25px oklch(0.45 0.1 215 / 0.22);
+  --shadow-card: 0 4px 20px -8px oklch(0.4 0.08 220 / 0.12);
 }
 
 .dark {

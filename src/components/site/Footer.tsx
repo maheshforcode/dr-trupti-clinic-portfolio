@@ -1,4 +1,4 @@
-import { Flower2, Instagram, Facebook, Twitter } from "lucide-react";
+import { Stethoscope, Instagram, Facebook, Twitter } from "lucide-react";
 
 const links = [
   { href: "#home", label: "Home" },
@@ -15,16 +15,16 @@ export function Footer() {
         <div>
           <a href="#home" className="flex items-center gap-2.5">
             <span className="grid place-items-center w-10 h-10 rounded-2xl bg-gradient-cta text-primary-foreground shadow-soft">
-              <Flower2 className="w-5 h-5" />
+              <Stethoscope className="w-5 h-5" />
             </span>
             <span className="flex flex-col leading-tight">
-              <span className="font-display font-semibold text-foreground">Dr. Trupti Galange</span>
-              <span className="text-[11px] tracking-wide text-muted-foreground uppercase">Women's Clinic</span>
+              <span className="font-display font-semibold text-foreground">Dr. Trupti Galange Clinic</span>
+              <span className="text-[11px] tracking-wide text-muted-foreground uppercase">Dehugaon</span>
             </span>
           </a>
           <p className="mt-4 text-sm text-muted-foreground max-w-xs leading-relaxed">
-            Compassionate Care for Every Woman. Modern gynecology, pregnancy, and
-            wellness care in Dehugaon.
+            Compassionate & Modern Healthcare — gynecology, pregnancy care, and
+            family wellness in Dehugaon.
           </p>
         </div>
 

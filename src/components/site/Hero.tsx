@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import { Calendar, Phone, Sparkles, HeartPulse, ShieldCheck } from "lucide-react";
+import { Calendar, Phone, Award, HeartPulse, ShieldCheck } from "lucide-react";
 import doctorImg from "@/assets/doctor.jpg";
 
 const badges = [
-  { icon: Sparkles, label: "10+ Years Experience" },
-  { icon: HeartPulse, label: "Personalized Care" },
-  { icon: ShieldCheck, label: "Modern Women's Health" },
+  { icon: Award, label: "Experienced Specialist" },
+  { icon: ShieldCheck, label: "Modern Care" },
+  { icon: HeartPulse, label: "Patient-Focused Treatment" },
 ];
 
 export function Hero() {
@@ -27,11 +27,11 @@ export function Hero() {
             Now accepting new patients in Dehugaon
           </span>
           <h1 className="mt-6 text-5xl md:text-6xl lg:text-7xl font-semibold leading-[1.05]">
-            Trusted <span className="text-gradient">Women's Healthcare</span> in Dehugaon
+            Trusted Healthcare & <span className="text-gradient">Women's Wellness</span> in Dehugaon
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-xl leading-relaxed">
-            Personalized gynecology, pregnancy, and wellness care with comfort,
-            compassion, and modern treatment from Dr. Trupti Galange.
+            Providing compassionate gynecology, pregnancy care, and modern healthcare
+            services with a patient-first approach.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
