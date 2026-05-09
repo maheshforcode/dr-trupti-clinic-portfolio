@@ -12,16 +12,16 @@ import { Footer } from "@/components/site/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Dr. Trupti Galange Women's Clinic — Gynecologist in Dehugaon" },
+      { title: "Dr. Trupti Galange Clinic — Gynecologist & Healthcare in Dehugaon" },
       {
         name: "description",
         content:
-          "Compassionate women's healthcare in Dehugaon — pregnancy, PCOS, infertility, and wellness care from Dr. Trupti Galange.",
+          "Compassionate & modern healthcare in Dehugaon — gynecology, pregnancy care, PCOS, infertility, and routine checkups by Dr. Trupti Galange.",
       },
-      { property: "og:title", content: "Dr. Trupti Galange Women's Clinic — Dehugaon" },
+      { property: "og:title", content: "Dr. Trupti Galange Clinic — Dehugaon" },
       {
         property: "og:description",
-        content: "Personalized gynecology and women's wellness care in Dehugaon.",
+        content: "Modern gynecology, pregnancy, and family healthcare in Dehugaon.",
       },
     ],
     links: [
